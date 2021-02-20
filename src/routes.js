@@ -9,8 +9,9 @@ export const routes = [
     name: "Home",
     component: Home
   },
+  //   传递参数 id，前面用 ':'
   {
-    path: "/products",
+    path: "/products/:id",
     name: "Products",
     component: Products
   }
