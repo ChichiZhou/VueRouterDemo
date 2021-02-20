@@ -30,6 +30,7 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
+  // 弥补了 router-link 的局限性
   methods:{
     routeToHome: function(){
       this.$router.push('/home')
