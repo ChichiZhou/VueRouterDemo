@@ -1,0 +1,15 @@
+<template>
+    <div>
+        THIS IS FROM HOME
+    </div>
+</template>
+
+<script>
+export default {
+    name:"Home.vue"
+}
+</script>
+
+<style>
+
+</style>
