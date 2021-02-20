@@ -16,6 +16,9 @@
     <div id="router_view">
       <router-view></router-view>
     </div>
+    <div>
+      <button @click="routeToHome">使用js进行路由跳转</button>
+    </div>
   </div>
 </template>
 
@@ -25,6 +28,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods:{
+    routeToHome: function(){
+      this.$router.push('/home')
     }
   }
 }
